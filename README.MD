@@ -67,12 +67,4 @@ Then enter your Boolean expression when prompted. The truth table will be saved 
 Enter Boolean expression: ¬(F*¬G)+¬(C+D)+E+F*G*¬H
 ```
 
-### Notes
-
-* You can also enter expressions copied from Word formulas, e.g.:
-
-```
-(F∙G̅)̅+(C+D)̅+E+F∙G∙H̅
-```
-
 * The script will parse and convert them automatically.
