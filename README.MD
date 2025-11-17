@@ -4,7 +4,7 @@ This project generates truth tables from Boolean expressions and exports them to
 
 ## Features
 - Supports Boolean expressions with operators:
-  - **NOT**: ¬
+  - **NOT**: ¬ or ~
   - **AND**: * or ^
   - **OR**: + or ∨
 - Variable names can include letters, digits, and underscores (e.g., F, x1, x_2)
