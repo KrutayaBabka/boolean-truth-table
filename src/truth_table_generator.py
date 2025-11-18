@@ -68,7 +68,7 @@ def generate_truth_table(sympy_expr, variables):
     Returns list of rows: each row = [set_number, var_values..., function_value]
     """
     rows_data = []
-    for i, values in enumerate(product([0, 1], repeat=len(variables)), start=1):
+    for i, values in enumerate(product([0, 1], repeat=len(variables))):
         val_dict = {variables[j]: values[j] for j in range(len(variables))}
         func_val = int(bool(sympy_expr.subs(val_dict)))
         rows_data.append([str(i)] + [str(v) for v in values] + [str(func_val)])
